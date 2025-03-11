@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1550px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+button {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background: #333; /* Dark gray background */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+button:hover {
+    background: #444; /* Slightly lighter gray on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow when hovered */
+}
+
+button:active {
+    transform: translateY(1px); /* Button sinks down when clicked */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow when clicked */
+}
+
+/* White button alternative */
+button.white-button {
+    background: #fff; /* White background */
+    color: #333; /* Dark text */
+    border: 2px solid #333; /* Dark border */
+}
+
+button.white-button:hover {
+    background: #f0f0f0; /* Lighter background on hover */
+    color: #333;
+}
+
+
+#palette {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.color-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.color-box {
+    width: 450px;
+    height: 450px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
