@@ -15,13 +15,6 @@ Open index.html in a web browser
 Click the "Generate Palette" button
 View the color swatches
 
-📂 Project Structure
-
-📁 color-palette-generator
-├── 📄 index.html       # Main structure of the project
-├── 📄 styles.css       # Styling for the layout and UI preview
-├── 📄 scripts.js       # JavaScript logic for color generation and application
-
 🛠 Technologies Used
 
 HTML – For the page structure
